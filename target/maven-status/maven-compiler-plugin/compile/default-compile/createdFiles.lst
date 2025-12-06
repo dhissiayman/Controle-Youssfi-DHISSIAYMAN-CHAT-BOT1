@@ -1,0 +1,13 @@
+com\example\mydhissia\controller\HealthController.class
+com\example\mydhissia\ai\ChatService.class
+com\example\mydhissia\config\MCPConfig.class
+com\example\mydhissia\config\ModelConfig.class
+com\example\mydhissia\ai\ConversationMemoryService.class
+com\example\mydhissia\mcp\tools\TimeToolClient.class
+com\example\mydhissia\telegram\TelegramUpdateHandler.class
+com\example\mydhissia\ai\ConversationMemoryService$MemoryEntry.class
+com\example\mydhissia\MyDhissiaAiAgentApplication.class
+com\example\mydhissia\config\TelegramConfig.class
+com\example\mydhissia\ai\EmbeddingService.class
+com\example\mydhissia\mcp\MCPClientService.class
+com\example\mydhissia\telegram\MyDHISSIAiAgentBot.class

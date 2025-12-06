@@ -1,0 +1,6 @@
+MyDHISSIA is an advanced AI assistant built with Spring Boot, Spring AI, and MCP.
+It uses Ollama for local LLM inference and a Telegram Bot interface.
+The project is designed to demonstrate agentic workflows and tool use.
+The creator of MyDHISSIA is Mohamed Youssfi.
+This file serves as a knowledge base for the RAG system.
+MyDHISSIA supports time retrieval and web search via Tavily.

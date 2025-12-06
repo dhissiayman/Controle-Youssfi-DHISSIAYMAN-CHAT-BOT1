@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: my-dhissia-ai-agent
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3.2:1b
+      embedding:
+        model: nomic-embed-text:latest
+    
+    # Custom config for file persistence
+    vectorstore:
+      path: vectorstore.json
+
+telegram:
+  bot:
+    username: MyDHISSIAiAgentBot
+    token: "8206546521:AAFK12vctOJA-CRSb2JAWnbHjjGxAB3OJac"
+
+mcp:
+  antigravity:
+    endpoint: http://localhost:8081/mcp
+
+logging:
+  level:
+    com.example.mydhissia: DEBUG
+    org.springframework.ai: INFO
